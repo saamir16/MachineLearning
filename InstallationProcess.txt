@@ -1,0 +1,9 @@
+pip install virtualenv
+python -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
+.venv\Scripts\activate
+pip install -r requirement.txt
+
+how to push files into githb:
+1. git status (git init if the git file is not initialized)
+2.
